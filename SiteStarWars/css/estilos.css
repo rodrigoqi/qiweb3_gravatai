@@ -1,0 +1,99 @@
+@font-face{
+    src: url("../font/wwDigital.ttf");
+    font-family: "minhafonte1";
+}
+
+@font-face{
+    src: url("../font/ultravioleta.ttf");
+    font-family: "minhafonte2";
+}
+
+@font-face{
+    src: url("../font/spaceWoozie.ttf");
+    font-family: "minhafonte3";
+}
+
+#principal{
+    width: 80%;
+    margin: auto;
+}
+
+#cabecalho{
+    height: 200px;
+    width: 100%;
+    background-image: url("../img/header.jpg");
+    background-size: 100% 100%;
+    float: top;
+}
+
+#menu{
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+
+.opcao{
+    height: 40px;
+    width: 20%;
+    background-color: black;
+    color: yellow;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    transition: background-color 1s;
+}
+
+.opcao:hover{
+    background-color: #333333;
+    transition: background-color 1s;
+}
+
+#texto{
+    width: 96%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: black;
+    text-align: justify;
+    font-size: 18px;
+    font-family: "minhafonte1";
+    float: left;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+.miniatura{
+    height: 200px;
+    width: 33.33%;
+    float: left;
+    padding-bottom: 30px;
+}
+
+.miniatura img{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url("../img/space.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 700px){
+
+    .opcao{
+        font-size: 16px;
+    }
+
+    #principal{
+        width: 95%;
+    }
+
+    .miniatura{
+        height: 100px;
+    }
+
+
+}
